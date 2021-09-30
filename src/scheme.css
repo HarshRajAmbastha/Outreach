@@ -1,0 +1,39 @@
+.schemeR1{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+
+}
+.schemeR2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    height: 50px;
+
+}
+.icon{
+    border: 2px solid red;
+   position: relative;
+    
+
+    
+}
+img{
+    height: 80px;
+    width: 100%;
+}
+.number{
+    border: 2px solid yellow;
+    margin: auto;
+    font-weight: 1000;
+    
+}
+
+.text{
+    border: 2px solid blue;
+    text-align: center;
+    justify-content: center;
+    font-weight: 500;
+}
